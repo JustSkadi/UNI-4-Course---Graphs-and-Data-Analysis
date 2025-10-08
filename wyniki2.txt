@@ -1,0 +1,39 @@
+--- Basic Network Properties ---
+Network Density: 0.033969
+Network Diameter: 9
+Average Path Length: 2.9846
+c:\Users\kazwe\OneDrive\Pulpit\IT\STUDIA\Semestr4\Tomaszewska L - Systemy złożone i analiza danych\lab2.py:52: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()
+
+--- Top 10 Players by PageRank ---
+1. Aryna Sabalenka: 0.008083
+2. Iga Swiatek: 0.008020
+3. Daria Kasatkina: 0.007594
+4. Caroline Garcia: 0.007347
+5. Elise Mertens: 0.007299
+6. Maria Sakkari: 0.007294
+7. Yulia Putintseva: 0.007264
+8. Elena Rybakina: 0.007209
+9. Jessica Pegula: 0.007183
+10. Veronika Kudermetova: 0.007176
+Number of connected components: 7
+Largest component size: 735
+Smallest component size: 2
+Average component size: 107.43
+Node connectivity: 1
+Edge connectivity: 1
+Number of articulation points: 121
+Number of bridges: 151
+Number of hubs: 38
+
+--- Top 5 Hubs (high-degree nodes) ---
+1. Aryna Sabalenka: 136 connections
+2. Sara Sorribes Tormo: 133 connections
+3. Ons Jabeur: 129 connections
+4. Sorana Cirstea: 122 connections
+5. Elina Svitolina: 118 connections
+Number of maximal cliques: 239498
+Largest clique size: 19
+Average path length from sampling: 3.1337
+Shortest path from Justina Mikulskyte to Risa Ozaki: ['Justina Mikulskyte', 'Anett Kontaveit', 'Su Wei Hsieh', 'Risa Ozaki']
+Path length: 3

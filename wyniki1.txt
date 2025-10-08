@@ -1,0 +1,108 @@
+=== INFORMACJE O GRAFIE ===
+Rodzaj grafu: Graf nieukierunkowany, ważony
+Rząd grafu (liczba wierzchołków): 752
+Rozmiar grafu (liczba krawędzi): 9592
+Czy graf jest spójny: False
+Liczba składowych spójnych: 7
+Rozmiar max składowej spójnej: 735
+
+=== MIARY CENTRALNOŚCI DLA WIERZCHOŁKÓW ===
+
+Top 20 zawodniczek według stopnia centralności (Degree Centrality):
+          Zawodniczka  Stopień (Degree)
+     Yulia Putintseva          0.198402
+        Elise Mertens          0.193076
+Ekaterina Alexandrova          0.191744
+       Elena Rybakina          0.189081
+          Donna Vekic          0.185087
+      Daria Kasatkina          0.183755
+     Jelena Ostapenko          0.183755
+      Caroline Garcia          0.182423
+      Aryna Sabalenka          0.181092
+        Magda Linette          0.179760
+  Sara Sorribes Tormo          0.177097
+ Veronika Kudermetova          0.175766
+           Coco Gauff          0.173103
+   Katerina Siniakova          0.171771
+          Iga Swiatek          0.171771
+           Ons Jabeur          0.171771
+        Maria Sakkari          0.169108
+   Anastasia Potapova          0.169108
+       Belinda Bencic          0.169108
+       Jessica Pegula          0.167776
+
+Top 20 zawodniczek według bliskości (Closeness Centrality):
+          Zawodniczka  Bliskość (Closeness)
+Ekaterina Alexandrova              0.469800
+     Yulia Putintseva              0.468267
+        Elise Mertens              0.467961
+          Donna Vekic              0.466137
+      Caroline Garcia              0.466137
+   Anastasia Potapova              0.465230
+  Beatriz Haddad Maia              0.463726
+     Jelena Ostapenko              0.463726
+      Daria Kasatkina              0.462829
+       Elena Rybakina              0.462829
+         Petra Martic              0.461638
+  Sara Sorribes Tormo              0.461341
+        Tatjana Maria              0.461341
+           Ons Jabeur              0.458979
+ Veronika Kudermetova              0.458979
+       Belinda Bencic              0.458686
+      Jasmine Paolini              0.458686
+        Maria Sakkari              0.458100
+    Karolina Pliskova              0.458100
+   Katerina Siniakova              0.457808
+
+Top 20 zawodniczek według pośrednictwa (Betweenness Centrality):
+                   Zawodniczka  Pośrednictwo (Betweenness)
+           Sara Sorribes Tormo                    0.032174
+                Carolina Alves                    0.030505
+                   Anna Bondar                    0.030204
+                Melisa Morales                    0.028335
+           Beatriz Haddad Maia                    0.026856
+                   Shuai Zhang                    0.023683
+                   Donna Vekic                    0.023589
+Maria Fernanda Herazo Gonzalez                    0.023040
+                  Alize Cornet                    0.023026
+              Rebecca Peterson                    0.022228
+                 Tatjana Maria                    0.021208
+                Sorana Cirstea                    0.019884
+                 Bernarda Pera                    0.019496
+                 Maileen Nuudi                    0.017712
+    Valentini Grammatikopoulou                    0.017500
+                 Elise Mertens                    0.017107
+                    Ons Jabeur                    0.016799
+             Tereza Martincova                    0.016221
+                Peyton Stearns                    0.015940
+                   Xin Yu Wang                    0.015858
+Zapisano wizualizację miar centralności do pliku centralnosc_wierzcholkow.png
+
+=== MIARY CENTRALNOŚCI DLA KRAWĘDZI ===
+
+Top 20 krawędzi według pośrednictwa (Betweenness Centrality):
+             Zawodniczka 1                  Zawodniczka 2  Liczba meczów  Pośrednictwo (Betweenness)
+          Cagla Buyukakcay               Beatrise Zeltina              1                    0.002936
+           Elaine Genovese     Valentini Grammatikopoulou              1                    0.002637
+       Beatriz Haddad Maia          Kirsten Andrea Weedon              1                    0.002330
+           Sofia Shapatava                  Maileen Nuudi              1                    0.002157
+                Ons Jabeur                  Dea Herdzelas              1                    0.002040
+               Donna Vekic                  Maileen Nuudi              1                    0.001844
+          Rebecca Peterson Maria Fernanda Herazo Gonzalez              1                    0.001775
+Ana Fabia Holweg Bustillos Maria Fernanda Herazo Gonzalez              1                    0.001641
+        Patricia Maria Tig                 Martha Matoula              1                    0.001586
+              Sandra Samir                Andre Lukosiute              1                    0.001517
+           Elaine Genovese             Marilouise Van Zyl              1                    0.001506
+           Nadia Podoroska               Ksenia Laskutova              1                    0.001471
+             Sada Nahimana                      Jana Fett              1                    0.001471
+                Sofya Zhuk                Laura Siegemund              1                    0.001471
+Ana Fabia Holweg Bustillos         Antonia Vergara Rivera              1                    0.001471
+          Yasmine Mansouri                Magdalena Frech              1                    0.001471
+              Heydi Doldan Maria Fernanda Herazo Gonzalez              1                    0.001471
+           Mariia Tkacheva               Varvara Gracheva              1                    0.001471
+     Alison Riske Amritraj                      Eleana Yu              1                    0.001471
+        Lilly Elida Haseth               Beatrise Zeltina              1                    0.001471
+
+=== MACIERZE GRAFU ===
+Graf jest zbyt duży do wizualizacji macierzy. Wybieram podgraf z top 20 zawodniczek.
+Utworzono podgraf z 20 wierzchołkami i 180 krawędziami.
