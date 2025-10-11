@@ -52,6 +52,22 @@ def plot_degree_distribution(G):
     plt.tight_layout()
     return fig
 
+def rozklad_stopni(G):
+    stopnie = [G.degree(n) for n in G.nodes()]
+    c_stopnie = Counter(stopnie)
+
+    wartosci = list(c_stopnie.keys())
+    wezly = list(c_stopnie.values())
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.bar(wartosci, wezly, color='blue')
+    ax.set_title("Rozkład stopni wierzchołków")
+    ax.set_xlabel("Stopnie")
+    ax.set_ylabel("Wartości stopni")
+
+    plt.tight_layout()
+    return fig
+
 def network_density(G):
     n = G.number_of_nodes()
     m = G.number_of_edges()
@@ -276,12 +292,16 @@ def main():
     plot_degree_distribution(G)
     plt.savefig(os.path.join(output_dir, "degree_distribution.png"))
     
-    centrality = centrality_measures(G)
     plt.figure(2)
+    rozklad_stopni(G)
+    plt.savefig(os.path.join(output_dir, 'rozklad_stopni.png'))
+    
+    centrality = centrality_measures(G)
+    plt.figure(3)
     plot_centrality_distributions(centrality)
     plt.savefig(os.path.join(output_dir, "centrality_distributions.png"))
     
-    plt.figure(3)
+    plt.figure(4)
     pagerank_fig, pagerank = calculate_pagerank(G)
     plt.savefig(os.path.join(output_dir, "pagerank.png"))
     
@@ -290,7 +310,7 @@ def main():
     for i, (player, score) in enumerate(top_pagerank, 1):
         print(f"{i}. {player}: {score:.6f}")
     
-    plt.figure(4)
+    plt.figure(5)
     cc_fig, cc_stats = connected_components_analysis(G)
     plt.savefig(os.path.join(output_dir, "connected_components.png"))
     
@@ -313,7 +333,7 @@ def main():
     for i, (hub, degree) in enumerate(sorted(hub_degrees, key=lambda x: x[1], reverse=True)[:5], 1):
         print(f"{i}. {hub}: {degree} connections")
     
-    plt.figure(5)
+    plt.figure(6)
     clique_fig, clique_stats = find_cliques(G)
     plt.savefig(os.path.join(output_dir, "clique_distribution.png"))
     
