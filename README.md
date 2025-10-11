@@ -12,3 +12,5 @@ Other Technologies:
 - **Networkx**
 - **Gensim**
 - **MS PowerBI**
+
+Wszystkie listy oraz programy są dodane na adekwatne branche / All lists and codes are added to adequate branches
